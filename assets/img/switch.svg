@@ -1,0 +1,12 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 75 75" width="75" height="75">
+	<title>Icon</title>
+	<style>
+		.s0 { fill: none;stroke: #dc0000;stroke-linecap: round;stroke-linejoin: round;stroke-width: 2 } 
+	</style>
+	<g id="Icon">
+		<path id="Path" class="s0" d="m68.6 28c-19-5.1-12.6-25-12.6-25 19.2 1.2 18 16.3 18 16.3"/>
+		<path id="Path" class="s0" d="m37 14v13"/>
+		<path id="Path" class="s0" d="m60.7 9.3c8.1 6.7 13.3 16.8 13.3 28.2 0 20.2-16.3 36.5-36.5 36.5-20.2 0-36.5-16.3-36.5-36.5 0-20.2 16.3-36.5 36.5-36.5"/>
+		<path id="Path" class="s0" d="m43.8 21c6.6 2.6 11.2 8.9 11.2 16.4 0 9.7-7.8 17.6-17.5 17.6-9.7 0-17.5-7.9-17.5-17.6 0-7.5 4.6-13.8 11.2-16.4"/>
+	</g>
+</svg>
