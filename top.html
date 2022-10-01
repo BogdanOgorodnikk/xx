@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="assets/css/index.css" />
+    <link rel="stylesheet" href="assets/css/slider.css" />
+    <script src="js/tailwind.js"></script>
+    <title>Schindler Green Service</title>
+  </head>
+
+  <body>
+ 
+    <div class="wrapper relative">
+      <div
+        class="sm:block flex items-center relative sm:aspect-auto overflow-hidden"
+      >
+        <video
+          playsinline=""
+          muted="muted"
+          loop="loop"
+          autoplay="autoplay"
+          src="assets/video/Hero_2.mp4"
+          class="sm:block hidden object-cover w-full h-full"
+        ></video>
+
+        <video
+                playsinline=""
+                muted="muted"
+                loop="loop"
+                autoplay="autoplay"
+                src="assets/video/HeroMobile.mp4"
+                class="block sm:hidden object-cover w-full h-full"
+        ></video>
+      </div>
+
+      <div
+        class="sm:absolute md:top-24 top-12 sm:right-[6.375rem] sm:max-w-[29.5rem] sm:p-0 px-6 pt-4 pb-6 sm:bg-transparent bg-gray-100"
+      >
+        <div
+          class="sm:text-white text-base-red sm:text-[1.8125rem] text-[1.375rem] sm:leading-[2.125rem] leading-7"
+        >
+          99,5 Prozent weniger CO₂
+        </div>
+
+        <div
+          class="sm:mt-3 mt-2 sm:text-2xl text-base sm:leading-8 leading-[1.5rem] text-base-gray-medium"
+        >
+          Mit der nachhaltigen Wartung von Schindler verringert sich der
+          CO2-Fußabdruck im Aufzugs-betrieb signifikant – langfristig durchdacht
+          und TÜV-zertifiziert
+        </div>
+
+        <a
+          href="https://www.schindler.de/de/kampagne/green-service.html#kontakt"
+          class="sm:mt-6 mt-4 inline-block hover:opacity-75 no-underline text-white font-bold sm:text-[1.0625rem] text-sm sm:leading-[1.0625rem] leading-[0.875rem] border border-base-red bg-base-red py-2.5 sm:py-3 sm:px-[2.375rem] px-8 rounded-sm" target="_parent"
+	    >
+          Kontakt
+        </a>
+      </div>
+
+      <div
+        class="text-white sm:text-xl text-lg leading-5 text-center bg-base-red py-4"
+      >
+        &nbsp;
+      </div>
+
+      <img src="assets/img/path.svg" alt="path" class="mx-auto" />
+    </div>
+
+    <div class="wrapper" id="video">
+      <div class="mt-10 relative flex justify-center">
+        <video
+          playsinline=""
+          src="assets/video/01_schindler_green_service_-_lang_mit_Startbild.mp4"
+          class="video-block object-cover w-full aspect-video"
+        ></video>
+
+        <button
+          class="play-button hover:opacity-75 absolute border border-base-red bg-base-red rounded-full sm:w-[8.375rem] w-16 sm:h-[8.375rem] h-16 flex items-center justify-center"
+        >
+          <img src="assets/img/play.svg" alt="play" />
+        </button>
+      </div>
+    </div>
+
+    <div class="wrapper">
+      <div
+        class="text-base-red sm:text-[1.8125rem] text-[1.375rem] sm:leading-[2.125rem] leading-7 mt-[3.75rem]"
+      >
+        Erste TÜV-zertifizierte nachhaltige Aufzugswartung – Wir erklären, wie
+        das geht.
+      </div>
+
+      <div class="md:flex sm:mt-8 mt-4">
+        <div
+          class="text-base-gray sm:text-[1.375rem] text-base sm:leading-8 leading-[1.375rem] flex-1"
+        >
+          <div>
+            Im <span class="font-bold">Green Service</span> von Schindler wird
+            der CO₂-Fußabdruck der Aufzugswartung auf das absolute Minimum und
+            nahezu Null reduziert.
+          </div>
+
+          <div>
+            Erfahren Sie im Film von Annika Jamal El-Din von Schindler, wie der
+            nachhaltige Betrieb von Aufzügen möglich wird und entdecken Sie Ihr
+            Einsparpotenzial in der Grafik:
+          </div>
+
+          <div class="sm:text-2xl text-base !leading-[1.375rem] text-base-gray sm:mt-6 mt-4"
+          >
+            Regler ziehen und CO2-Einsparung entdecken
+          </div>
+        </div>
+
+        <div class="md:mt-0 mt-4 flex-1">
+
+          <div id="slider">
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+
+    <script src="js/tailwind.config.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/sliderPackage.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/iframeResizer.contentWindow.min.js"></script>
+  </body>
+</html>

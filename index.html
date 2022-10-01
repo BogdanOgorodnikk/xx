@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="assets/css/index.css" />
+    <link rel="stylesheet" href="assets/css/slider.css" />
+    <script src="js/tailwind.js"></script>
+    <title>Schindler Green Service</title>
+  </head>
+
+  <body>
+    <header class="sm:mt-[2.1875rem] mt-6 wrapper">
+      <a href="#">
+        <img
+          src="assets/img/logo.png"
+          class="inline-block sm:h-[4.625rem] h-[3.125rem]"
+          alt="logo"
+        />
+      </a>
+
+      <h1
+        class="sm:mt-12 mt-8 text-base-red sm:text-[1.8125rem] text-[1.375rem] sm:leading-[2.125rem] leading-7"
+      >
+        Schindler Green Service
+      </h1>
+      <div
+        class="sm:mb-12 mb-5 text-base-gray sm:text-[1.8125rem] text-[1.375rem] sm:leading-[2.125rem] leading-7"
+      >
+        TÜV-zertifizierte Nachhaltigkeit für Ihren Aufzug
+      </div>
+    </header>
+
+<!-- Begin iFrame top.html -->
+
+    <div class="wrapper relative">
+      <div
+        class="sm:block flex items-center relative sm:aspect-auto overflow-hidden"
+      >
+        <video
+          playsinline
+          muted="muted"
+          loop="loop"
+          autoplay="autoplay"
+          src="assets/video/Hero_2.mp4"
+          class="sm:block hidden object-cover w-full h-full"
+        ></video>
+
+        <video
+                playsinline
+                muted="muted"
+                loop="loop"
+                autoplay="autoplay"
+                src="assets/video/HeroMobile.mp4"
+                class="block sm:hidden object-cover w-full h-full"
+        ></video>
+      </div>
+
+      <div
+        class="sm:absolute md:top-24 top-12 sm:right-[6.375rem] sm:max-w-[29.5rem] sm:p-0 px-6 pt-4 pb-6 sm:bg-transparent bg-gray-100"
+      >
+        <div
+          class="sm:text-white text-base-red sm:text-[1.8125rem] text-[1.375rem] sm:leading-[2.125rem] leading-7"
+        >
+          99,5 Prozent weniger CO₂
+        </div>
+
+        <div
+          class="sm:mt-3 mt-2 sm:text-2xl text-base sm:leading-8 leading-[1.5rem] text-base-gray-medium"
+        >
+          Mit der nachhaltigen Wartung von Schindler verringert sich der
+          CO2-Fußabdruck im Aufzugs-betrieb signifikant – langfristig durchdacht
+          und TÜV-zertifiziert
+        </div>
+
+        <a
+          href="https://www.schindler.de/de/kampagne/green-service.html#kontakt"
+          class="sm:mt-6 mt-4 inline-block hover:opacity-75 no-underline text-white font-bold sm:text-[1.0625rem] text-sm sm:leading-[1.0625rem] leading-[0.875rem] border border-base-red bg-base-red py-2.5 sm:py-3 sm:px-[2.375rem] px-8 rounded-sm" target="_parent"
+	    >
+          Kontakt
+        </a>
+      </div>
+
+      <div
+        class="sm:block hidden text-white sm:text-xl text-lg leading-5 text-center bg-base-red py-4"
+      >
+        &nbsp;
+      </div>
+
+      <img src="assets/img/path.svg" alt="path" class="mx-auto sm:block hidden" />
+    </div>
+
+    <div class="wrapper" id="video">
+      <div class="mt-10 relative flex justify-center">
+        <video
+        playsinline
+        loop="loop"
+        autoplay="autoplay"
+        src="assets/video/placeholder-video.mp4"
+        class="placeholder-video-block object-cover w-full h-full aspect-video"
+      ></video>
+
+        <video
+          playsinline
+          src="assets/video/videoWithPause.mp4"
+          class="hidden video-block object-cover w-full h-full aspect-video"
+        ></video>
+
+        <button
+          class="play-button hover:opacity-75 absolute border border-base-red bg-base-red rounded-full sm:w-[8.375rem] w-16 sm:h-[8.375rem] h-16 flex items-center justify-center"
+        >
+          <img src="assets/img/play.svg" alt="play" />
+        </button>
+      </div>
+    </div>
+
+    <div class="wrapper">
+      <div
+        class="text-base-red sm:text-[1.8125rem] text-[1.375rem] sm:leading-[2.125rem] leading-7 mt-[3.75rem]"
+      >
+        Erste TÜV-zertifizierte nachhaltige Aufzugswartung – Wir erklären, wie
+        das geht.
+      </div>
+
+      <div class="md:flex sm:mt-8 mt-4">
+        <div
+          class="text-base-gray sm:text-[1.375rem] text-base sm:leading-8 leading-[1.375rem] flex-1"
+        >
+          <div>
+            Im <span class="font-bold">Green Service</span> von Schindler wird
+            der CO₂-Fußabdruck der Aufzugswartung auf das absolute Minimum und
+            nahezu Null reduziert.
+          </div>
+
+          <div>
+            Erfahren Sie im Film von Annika Jamal El-Din von Schindler, wie der
+            nachhaltige Betrieb von Aufzügen möglich wird und entdecken Sie Ihr
+            Einsparpotenzial in der Grafik:
+          </div>
+
+          <div class="sm:text-2xl text-base !leading-[1.375rem] text-base-gray sm:mt-6 mt-4"
+          >
+            Regler ziehen und CO2-Einsparung entdecken
+          </div>
+        </div>
+
+        <div class="md:mt-0 mt-4 flex-1">
+
+          <div id="slider">
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+
+<!-- End iFrame top.html -->
+
+    <div class="bg-base-gray-light sm:py-11 py-6 mt-8 sm:px-0 px-6">
+      <div
+        class="max-w-[41.5rem] sm:text-[1.375rem] text-lg sm:leading-8 leading-[1.375rem] mx-auto text-center text-white"
+      >
+        Nehmen Sie Kontakt mit unseren Expert*innen für Schindler Digital Media
+        Service auf oder konfigurieren Sie direkt Ihre individuelle Lösung.
+      </div>
+
+      <div
+        class="flex sm:flex-row flex-col justify-center sm:space-x-2.5 sm:space-y-0 space-y-4 mt-6"
+      >
+        <a
+          href="#"
+          class="inline-block sm:text-left text-center hover:opacity-75 no-underline font-bold text-[1.0625rem] leading-[1.0625rem] text-base-red border border-white bg-white rounded-sm py-3 px-[2.375rem]"
+        >
+          Jetzt beraten lassen
+        </a>
+
+        <a
+          href="#"
+          class="inline-block sm:text-left text-center hover:opacity-75 no-underline font-bold text-[1.0625rem] leading-[1.0625rem] text-white border border-white bg-transparent rounded-sm py-3 px-[2.375rem]"
+        >
+          Jetzt konfigurieren
+        </a>
+      </div>
+    </div>
+
+<!-- Begin iFrame bottom.html -->
+
+    <div class="wrapper">
+      <div
+        class="text-base-red sm:text-[1.8125rem] text-[1.375rem] sm:leading-[2.125rem] leading-7 mt-12"
+      >
+        TÜV-zertifiziert – so wird Service nachhaltig
+      </div>
+
+      <div
+        class="sm:text-[1.375rem] text-lg sm:leading-8 leading-[1.375rem] text-base-gray mt-4"
+      >
+        Die regelmäßigen Wartungs- und Service-Leistungen des „Green Service“
+        von Schindler finden „remote“ – digital aus der Ferne – statt. Das
+        digitale Monitoring ersetzt somit einen Großteil der Fahrten zu den
+        Aufzügen. Erfahrene Schindler Servicetechniker machen sich umgehend mit
+        ihrem Elektrofahrzeug auf den Weg zum Aufzug, wenn eine Störung nicht
+        aus der Ferne behoben werden kann.
+      </div>
+
+      <div
+        class="grid sm:grid-cols-2 md:grid-cols-4 sm:gap-x-12 gap-y-8 mt-[4.25rem]"
+      >
+        <div class="group w-full overflow-hidden">
+          <div class="h-[4.875rem] flex items-center pl-6">
+            <img class="group-hover:opacity-50" src="assets/img/car.svg" alt="desciptionIcon" />
+          </div>
+
+          <div
+            class="h-full sm:text-xl text-base sm:leading-[1.6875rem] leading-[1.375rem] text-base-gray border-l border-base-gray-strong pl-6 mt-8"
+          >
+            <span class="font-bold text-base-gray-bold"
+              >Reduzierte Fahrten:</span
+            >
+            Dauerhaft remote ersetzt punktuell vor Ort. Servicetechniker fahren
+            nur zu den Aufzügen, wenn diese sie wirklich brauchen.
+          </div>
+        </div>
+
+        <div class="group w-full overflow-hidden">
+          <div class="h-[4.875rem] flex items-center pl-6">
+            <img class="group-hover:opacity-50" src="assets/img/like.svg" alt="desciptionIcon" />
+          </div>
+
+          <div
+            class="h-full sm:text-xl text-base sm:leading-[1.6875rem] leading-[1.375rem] text-base-gray border-l border-base-gray-strong pl-6 mt-8"
+          >
+            <span class="font-bold text-base-gray-bold">Win-Win:</span>
+            Der CO2-Ausstoß wird deutlich verringert. Zugleich werden Störungen
+            schneller behoben und die Verfügbarkeit des Aufzugs kann steigen.
+          </div>
+        </div>
+
+        <div class="group w-full overflow-hidden">
+          <div class="h-[4.875rem] flex items-center pl-6">
+            <img class="group-hover:opacity-50" src="assets/img/switch.svg" alt="desciptionIcon" />
+          </div>
+
+          <div
+            class="h-full sm:text-xl text-base sm:leading-[1.6875rem] leading-[1.375rem] text-base-gray border-l border-base-gray-strong pl-6 mt-8"
+          >
+            <span class="font-bold text-base-gray-bold"
+              >Elektromobilität im Einsatz:</span
+            >
+            Wenn Techniker zu den Aufzügen fahren, nutzen sie Fahrzeuge aus der
+            E-Mobilitätsflotte von Schindler.
+          </div>
+        </div>
+
+        <div class="group w-full overflow-hidden">
+          <div class="h-[4.875rem] flex items-center pl-6">
+            <img class="group-hover:opacity-50" src="assets/img/earth.svg" alt="desciptionIcon" />
+          </div>
+
+          <div
+            class="h-full sm:text-xl text-base sm:leading-[1.6875rem] leading-[1.375rem] text-base-gray border-l border-base-gray-strong pl-6 mt-8"
+          >
+            <span class="font-bold text-base-gray-bold">Weniger ist mehr:</span>
+            Weniger Papier, umwelt-freundliche Produkte, Mehrfachnutzung von
+            Schutzausrüstung – das alles trägt zur nachhalti-gen Wartung bei.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="wrapper">
+      <div class="mt-[4.625rem] grid md:grid-cols-2">
+        <video
+          playsinline
+          muted="muted"
+          loop="loop"
+          autoplay="autoplay"
+          src="assets/video/banner-1.mp4"
+          class="aspect-square object-cover w-full h-full overflow-hidden"
+        ></video>
+
+        <div class="group relative aspect-square w-full bg-base-red md:p-0 p-8">
+          <a class="absolute top-0 left-0 w-full h-full" href="https://www.schindler.de/de/service/optionen/green-service.html" target="_blank"></a>
+            <div
+                    class="md:px-[3.75rem] lg:pr-[10.625rem] text-white sm:text-[1.8125rem] text-[1.375rem] sm:leading-[2.125rem] leading-7 md:mt-8 lg:mt-16"
+            >
+              Schindler Green Service
+            </div>
+
+            <div
+                    class="md:px-[3.75rem] lg:pr-[10.625rem] sm:text-2xl text-base sm:leading-8 leading-[1.375rem] text-white mt-5 mb-9"
+            >
+              Alle Infos zum grünen Vertrag und noch ein bisschen Blindtext finden
+              Sie hier
+            </div>
+
+            <div class="md:mx-[3.75rem] lg:mr-[10.625rem] md:mb-8 lg:mb-16">
+              <a
+                      href="https://www.schindler.de/de/service/optionen/green-service.html"
+                      class="inline group-hover:border-transparent border-b border-white sm:text-2xl text-base !leading-[1.375rem] text-white" target="_blank"
+              >
+                >> 99,5% weniger CO2 Emission
+              </a>
+            </div>
+        </div>
+
+        <div class="group relative aspect-square w-full bg-base-red md:p-0 p-8">
+          <a class="absolute top-0 left-0 w-full h-full" href="https://www.schindler.de/de/aufzuege/modernisierung/komponenten/kers.html" target="_blank"></a>
+          <div
+            class="md:px-[3.75rem] lg:pr-[10.625rem] text-white sm:text-[1.8125rem] text-[1.375rem] sm:leading-[2.125rem] leading-7 md:mt-8 lg:mt-16"
+          >
+            Schindler KERS
+          </div>
+
+          <div
+            class="md:px-[3.75rem] lg:pr-[10.625rem] sm:text-2xl text-base sm:leading-8 leading-[1.375rem] text-white mt-5 mb-9"
+          >
+            Alle Infos zu Schindler KERS und noch ein bisschen Blindtext finden
+            Sie hier
+          </div>
+
+          <div class="md:mx-[3.75rem] lg:mr-[10.625rem] md:mb-8 lg:mb-16">
+            <a
+              href="https://www.schindler.de/de/aufzuege/modernisierung/komponenten/kers.html"
+              class="inline group-hover:border-transparent border-b border-white sm:text-2xl text-base !leading-[1.375rem] text-white" target="_blank"
+            >
+              >> 70% weniger Stromverbrauch
+            </a>
+          </div>
+        </div>
+
+        <video
+          playsinline
+          muted="muted"
+          loop="loop"
+          autoplay="autoplay"
+          src="assets/video/banner-2.mp4"
+          class="aspect-square object-cover w-full h-full overflow-hidden md:row-auto row-start-3"
+        ></video>
+      </div>
+    </div>
+
+<!-- End iFrame bottom.html -->
+
+    <div
+      class="bg-base-red sm:text-[1.375rem] text-lg sm:leading-8 leading-[1.375rem] text-white text-center sm:py-16 py-8 sm:px-0 px-6 mt-[3.75rem]"
+    >
+      Wir beraten Sie gern. Jetzt Kontakt aufnehmen.
+    </div>
+
+    <script src="js/tailwind.config.js"></script>
+    <script src="js/sliderPackage.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/slider.js"></script>
+  </body>
+</html>
